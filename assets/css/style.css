@@ -7,16 +7,19 @@ body {
 }
 
 main {
-  height: 100%;
-  width: 80%;
+  flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+.logo {
+  margin: 2% auto 2% auto;
 }
 
 nav {
   display: flex;
   flex: 1;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 ul {
@@ -34,6 +37,7 @@ a {
 .line {
   height: 2px;
   width: 100%;
+  margin: 2% 0 2% 0;
 }
 
 button {
@@ -43,6 +47,17 @@ button {
 .gallery {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex: 1;
+}
+
+.gallery:first-child {
+  margin-top: 20px;
+}
+
+.pic {
+
 }
 
 .bg-color01 {
@@ -51,4 +66,8 @@ button {
 
 .text-color01 {
   color: #ff6d6d;
+}
+#btt {
+  margin-top: 40px;
+  
 }
