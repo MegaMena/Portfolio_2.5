@@ -22,6 +22,10 @@ main {
   display: flex;
 }
 
+.logo {
+  margin: 2% auto 2% auto;
+}
+
 nav {
   display: flex;
   margin: auto;
@@ -71,6 +75,17 @@ section {
   display: flex;
   flex: 1;
   flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex: 1;
+}
+
+.gallery:first-child {
+  margin-top: 20px;
+}
+
+.pic {
+
 }
 
 .bg-color01 {
