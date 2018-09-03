@@ -115,3 +115,16 @@ section {
     max-width: 70%;
     max-height: auto;
 }
+
+footer {
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+
+#footer {
+  margin: auto;
+  margin-top: 50px;
+  color: #ff6d6d;
+  font-family: 'Montserrat', sans-serif;
+}
