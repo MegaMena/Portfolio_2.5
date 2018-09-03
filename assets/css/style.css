@@ -14,7 +14,7 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #logo {
@@ -29,7 +29,7 @@ main {
 nav {
   display: flex;
   margin: auto;
-  font-family: 'Monoton', cursive;
+  font-family: 'Permanent Marker', cursive;
 }
 
 li {
@@ -59,7 +59,7 @@ button {
   border: 0px;
   padding: 0px;
   margin-bottom: 15px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: GhostWhite;
 }
 
