@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <img src="assets\pictures\logo.png" id="logo">
+      <img src="assets\pictures\" id="logo">
       <nav role="main">
         <ul>
           <li><a href="index.html" class="text-color01">Portfolio</a></li>
@@ -26,48 +26,35 @@
     <main>
       <nav role="sub">
         <ul>
-            <li><button class="text-color01">All</button></li>
-            <li><button class="text-color01">Illustrations</button></li>
-            <li><button class="text-color01">Animations</button></li>
-            <li><button class="text-color01">Webdesign</button></li>
-            <li><button class="text-color01">Editing</button></li>
+            <li><button class="button text-color01">All</button></li>
+            <li><button class="button text-color01">Illustrations</button></li>
+            <li><button class="button text-color01">Animations</button></li>
+            <li><button class="button text-color01">Webdesign</button></li>
+            <li><button class="button text-color01">Editing</button></li>
         </ul>
       </nav>
       <section >
-        <div class="portfolio">
-          <img src="assets\pictures\WW2.png" class="portfolio-pic">
-          <p>Wilford Warfstache</p>
-        </div>
-        <div class="portfolio">
-          <img src="assets\pictures\billum-forside.PNG" class="portfolio-pic">
-          <img src="assets\pictures\billum-underside.PNG" class="portfolio-pic">
-          <img src="assets\pictures\billum-footer.PNG" class="portfolio-pic">
-          <p>Billum Friskole</p>
-        </div>
-        <div class="portfolio">
-          <img src="assets\pictures\placeholder.png" class="portfolio-pic">
-          <p>Placeholder</p>
-        </div>
+        <button class="portfolio" id="myBtn">
+            <img src="assets\pictures\WW2.png" class="portfolio-pic showModalChat">
+            <p>Wilford Warfstache</p>
+        </button>
+        <button class="portfolio">
+            <img src="assets\pictures\billum-forside.PNG" class="portfolio-pic">
+            <img src="assets\pictures\billum-underside.PNG" class="portfolio-pic">
+            <img src="assets\pictures\billum-footer.PNG" class="portfolio-pic">
+            <p>Billum Friskole</p>
+        </button>
+        <button class="portfolio">
+
+        </button>
       </section>
       <section class="gallery">
-        <div class="portfolio">
-          <img src="assets\pictures\placeholder.png" class="portfolio-pic">
-          <p>Placeholder</p>
-        </div>
-        <div class="portfolio">
-          <img src="assets\pictures\placeholder.png" class="portfolio-pic">
-          <p>Placeholder</p>
-        </div>
-        <div class="portfolio">
-          <img src="assets\pictures\placeholder.png" class="portfolio-pic">
-          <p>Placeholder</p>
-        </div>
-      </section>
-      <section class="gallery">
-        <div class="portfolio">
-          <img src="assets\pictures\placeholder.png" class="portfolio-pic">
-          <p>Placeholder</p>
-        </div>
+        <button class="portfolio">
+          <img src="assets\pictures\KEDU-forside.png" class="portfolio-pic">
+          <br>
+          <img src="assets\pictures\KEDU-lesson.png" class="portfolio-pic">
+          <p>KEDU</p>
+        </button>
         <div class="portfolio">
           <img src="assets\pictures\placeholder.png" class="portfolio-pic">
           <p>Placeholder</p>
@@ -77,9 +64,25 @@
           <p>Placeholder</p>
         </div>
       </section>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+            <section>
+              <article>
+                <h3>Wilford Warfstache</h3>
+                <p> - Hobby Projekt - </p>
+              </article>
+              <img src="assets\pictures\placeholder.png" class="about-pic">
+            </section>
+        </div>
+      </div>
+
+
     </main>
     <footer>
       <p id="footer">2018</p>
     </footer>
   </body>
+  <script src="assets/script/script.js"></script>
 </html>
